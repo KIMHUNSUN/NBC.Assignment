@@ -1,0 +1,69 @@
+.title {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.search {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: white;
+}
+
+.search-input {
+    margin-left: 10px;
+    color: white;
+    border-color: white;
+}
+
+.search-btn {
+    margin-left: 10px;
+    color: white;
+    border-color: white;
+}
+
+* {
+    background-color: black;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    justify-self: center;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.card > .movie-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card > .movie-title {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+}
+.card > .movie-content {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+.card > .movie-rating {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.movieCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
